@@ -1,5 +1,12 @@
-export default function HomePage() {
-  return <div>Hello World
-    
-  </div>;
+import { Button } from "@/components/ui/button";
+
+export default async function HomePage() {
+  return (
+    <div>
+      Hello, Next.js!
+      <Button size={"xs"} variant={"destructive"}>
+        Click Me
+      </Button>
+    </div>
+  );
 }
