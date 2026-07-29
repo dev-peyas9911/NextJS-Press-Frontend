@@ -25,7 +25,7 @@ type PostFormDialogProps = {
   post?: IPost;
 };
 
-export function PostFormDialog({ mode, post }: Props) {
+export function PostFormDialog({ mode, post }: PostFormDialogProps) {
   const [open, setOpen] = useState(false);
 
   const action =
